@@ -9,8 +9,9 @@ nav{
     margin-right: 50px;
     padding-top: 10px;
 }
-#logo{
+.logo{
     font-size: 40px;
+    color: #52357B;
     margin: 0;
 }
 
@@ -113,4 +114,22 @@ h3{
     height: 45px;
     margin: 20px 0;
     padding: 0 20px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+footer a{
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+
 }
