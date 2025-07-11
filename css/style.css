@@ -50,6 +50,7 @@ nav{
     font-size: 55px;
 }
 .actionP{
+    font-size: 18px;
     margin: 15px 0;
 }
 
@@ -107,7 +108,8 @@ h2{
 
 .reviewer img{
     height: 50px;
-}
+    border-radius: 50%;
+    }
 
 .contact{
     justify-content: center;
@@ -131,7 +133,6 @@ h2{
 
 .contact input::placeholder{
     font-size: 20px;
-    font-weight: 600;
 }
 
 
