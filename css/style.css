@@ -9,7 +9,7 @@ nav{
     padding-top: 10px;
 }
 .logo{
-    font-size: 40px;
+    font-size: 45px;
     color: #52357B;
     margin: 0;
 }
@@ -43,7 +43,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 150px;
+    padding: 50px 100px;
     text-align: left;
 }
 .actionH1{
@@ -103,13 +103,30 @@ h2{
 .reviewer{
     display: flex;
     gap: 10px;
-    align-items: cen    ter;
+    align-items: center;
 }
 
 .reviewer img{
     height: 50px;
     border-radius: 50%;
-    }
+
+}
+
+.ready{
+    margin: 20px 0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.ready h1{
+    font-size: 50px;
+    margin: 0 0;
+}
+
+.ready img{
+    margin-top: 30px;
+    border-radius: 20px;
+}
 
 .contact{
     justify-content: center;
@@ -125,7 +142,7 @@ h2{
 }
 .contact input{
     display: block;
-    width: 750px;
+    width: 770px;
     height: 45px;
     margin: 30px 0;
     padding: 0 20px;
@@ -134,21 +151,26 @@ h2{
 .contact input::placeholder{
     font-size: 20px;
 }
+.contact textarea{
+    padding: 10px 20px;
+}
+.contact textarea::placeholder{
+    font-size: 20px;
+}
 
 
 footer{
     text-align: center;
-    padding: 10px;
+    padding: 20px 10px;
 }
 footer p{
     width: 60%;
     margin: auto;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 footer a{
     margin: 0 10px;
     font-size: 20px;
     text-decoration: none;
-
 }
