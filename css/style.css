@@ -72,16 +72,27 @@ h3{
 
 .reviewSection{
     text-align: center;
+    padding: 20px 0;
 }
 .reviews{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 0 50px 0 50px;
 }
 .reviewCard{
     text-align: left;
-    max-width: 30%;
+    padding: 0 20px;
+    width: 25%;
 }
 
 .reviewer{
     display: flex;
+    gap: 10px;
+    align-items: cen    ter;
+}
+
+.reviewer img{
+    height: 50px;
 }
