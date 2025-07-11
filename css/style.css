@@ -1,0 +1,87 @@
+body{
+    font-family: "Segoe ui";
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+}
+#logo{
+    font-size: 40px;
+    margin: 0;
+}
+
+.btn{
+    background-color: #52357B;
+    color: white;
+    padding:15px 60px;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.hero{
+    text-align: center;
+    height: 100vh;
+    font-size: 45px;
+    overflow: hidden;
+}
+.hero-container{
+    margin: 50vh;
+    transform: translate(0, -80%);
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    text-align: left;
+}
+.actionH1{
+    font-size: 55px;
+}
+
+.userSection{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+}
+.userMain{
+    width: 80%;
+    margin: auto;
+    background-color: #f7936bb4;
+    border-radius: 10px;
+}
+.statistics{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 130px;
+    height: 300px;
+    font-weight: bold;
+}
+.number{
+    font-size: 90px;
+    color: #5c1bb7;
+}
+h3{
+    font-weight: normal;
+}
+
+.reviewSection{
+    text-align: center;
+}
+.reviews{
+    display: flex;
+    justify-content: center;
+}
+.reviewCard{
+    text-align: left;
+    max-width: 30%;
+}
+
+.reviewer{
+    display: flex;
+}
